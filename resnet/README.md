@@ -1,14 +1,17 @@
 # Introduction
 This is the resnet50 work in the FaST-GShare MLPerf Benchmark. Run one of the following command to download the models and build the docker image: 
 
-""" 
-1.1 make download_tensorflow_model 
+1.1 make download_tensorflow_model
+
 1.2 make download_pytorch_model 
+
 1.3 make download_onnx_model 
+
 2.1 make build_docker_pytoch 
+
 2.2 make build_docker_tensorflow 
+
 2.3 make build_docker_onnxruntime 
-"""
 
 # Run
 - Run the image: `docker run --network host --rm -v /models/resnet:/models/resnet docker.io/kontonpuku666/mlperf-resnet:[tensorflow/pytorch/onnxruntime]`
