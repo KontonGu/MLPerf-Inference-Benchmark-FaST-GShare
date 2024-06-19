@@ -1,5 +1,6 @@
 # Introduction
-This is the resnet50 work in the FaST-GShare MLPerf Benchmark. Run one of the following command to download the models and build the docker image:
+This is the resnet50 work in the FaST-GShare MLPerf Benchmark. Run one of the following command to download the models and build the docker image: 
+
 """ 
 1.1 make download_tensorflow_model 
 1.2 make download_pytorch_model 
