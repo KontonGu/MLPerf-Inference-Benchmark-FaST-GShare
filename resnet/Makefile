@@ -47,14 +47,19 @@ download_onnx_model: create_directories
 .PHONY: build_docker_pytoch
 build_docker_pytoch: 
 	@cp dockerfiles/Dockerfile.pytorch Dockerfile
-	@docker build -t resnet:pytorch .
+	@docker build -t kontonpuku666/mlperf-resnet:pytorch .
         
 .PHONY: build_docker_tensorflow
 build_docker_tensorflow: 
 	@cp dockerfiles/Dockerfile.tensorflow Dockerfile
-	@docker build -t resnet:tensorflow .
+	@docker build -t kontonpuku666/mlperf-resnet:tensorflow .
 
 .PHONY: build_docker_onnxruntime
 build_docker_onnxruntime: 
 	@cp dockerfiles/Dockerfile.onnxruntime Dockerfile
-	@docker build -t resnet:onnx .
+	@docker build -t kontonpuku666/mlperf-resnet:onnx .
+
+.PHONY: build_docker_pytoch_test
+build_docker_pytoch_test: 
+	@cp dockerfiles/Dockerfile_test.pytorch Dockerfile
+	@docker build -t kontonpuku666/mlperf-resnet:pytorch-test .
