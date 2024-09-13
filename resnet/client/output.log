@@ -1,0 +1,400 @@
+2024/09/08 06:55:57 Version: 0.9.6	SHA: 82eb58722012fe5af0c28dc161a3848e5d3ddd4e
+2024/09/08 06:55:57 Forking: python3, arguments: [index.py --backend pytorch-native]
+2024/09/08 06:55:57 Started logging: stderr from function.
+2024/09/08 06:55:57 Started logging: stdout from function.
+2024/09/08 06:55:57 Watchdog mode: http
+2024/09/08 06:55:57 Timeouts: read: 10s write: 10s hard: 10s health: 10s
+2024/09/08 06:55:57 Listening on port: 8080
+2024/09/08 06:55:57 Writing lock-file to: /tmp/.lock
+2024/09/08 06:55:57 Metrics listening on port: 8081
+2024/09/08 06:55:57 stdout: [2024-09-08 06:55:57][INFO][cuda_hook.cpp:28] The libc Version in the system is:2.35
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.h:66] dlsym symbol: cuGetProcAddress_v2
+2024/09/08 06:56:00 stderr: /opt/conda/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+2024/09/08 06:56:00 stderr:   warnings.warn(
+2024/09/08 06:56:00 stderr: /opt/conda/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+2024/09/08 06:56:00 stderr:   warnings.warn(msg)
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][INFO][cuda_hook.cpp:423] Start Initilization
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][INFO][cuda_hook.cpp:514] The IP and Port to the client GPU is: 10.244.0.72:56004
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:446] Connection established.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:573] new request: 0
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:582] Received MEM_LIMIT, used = 0, limited = 2700000000, remain = 2700000000
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][INFO][cuda_hook.cpp:472] cuda_execution_monitor thread is running.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][INFO][cuda_hook.cpp:588] update_gpu_mem thread is running.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:573] new request: 2
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:96] cudaAPI = cuMemAlloc_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:271] cuMemAlloc_prehook Entered.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:273] Requested memory size: 2097152
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:582] Received MEM_LIMIT, used = 0, limited = 2700000000, remain = 2700000000
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:292] Mem allocated address: CUdeviceptr = 140604524724224
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:96] cudaAPI = cuMemAlloc_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:271] cuMemAlloc_prehook Entered.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:273] Requested memory size: 2097152
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:292] Mem allocated address: CUdeviceptr = 140604526821376
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:96] cudaAPI = cuMemAlloc_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:271] cuMemAlloc_prehook Entered.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:273] Requested memory size: 2097152
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:292] Mem allocated address: CUdeviceptr = 140604528918528
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:96] cudaAPI = cuMemAlloc_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:271] cuMemAlloc_prehook Entered.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:273] Requested memory size: 2097152
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:292] Mem allocated address: CUdeviceptr = 140604531015680
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:96] cudaAPI = cuMemAlloc_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:271] cuMemAlloc_prehook Entered.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:273] Requested memory size: 20971520
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:292] Mem allocated address: CUdeviceptr = 140604780576768
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:96] cudaAPI = cuMemAlloc_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:271] cuMemAlloc_prehook Entered.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:273] Requested memory size: 2097152
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:292] Mem allocated address: CUdeviceptr = 140604801548288
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:96] cudaAPI = cuMemAlloc_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:271] cuMemAlloc_prehook Entered.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:273] Requested memory size: 2097152
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:292] Mem allocated address: CUdeviceptr = 140604803645440
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:96] cudaAPI = cuMemAlloc_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:271] cuMemAlloc_prehook Entered.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:273] Requested memory size: 2097152
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:292] Mem allocated address: CUdeviceptr = 140604805742592
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:96] cudaAPI = cuMemAlloc_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:271] cuMemAlloc_prehook Entered.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:273] Requested memory size: 2097152
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:292] Mem allocated address: CUdeviceptr = 140604807839744
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:96] cudaAPI = cuMemAlloc_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:271] cuMemAlloc_prehook Entered.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:273] Requested memory size: 2097152
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:292] Mem allocated address: CUdeviceptr = 140604809936896
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:96] cudaAPI = cuMemAlloc_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:271] cuMemAlloc_prehook Entered.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:273] Requested memory size: 20971520
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:292] Mem allocated address: CUdeviceptr = 140604310814720
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:96] cudaAPI = cuMemAlloc_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:271] cuMemAlloc_prehook Entered.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:273] Requested memory size: 20971520
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:292] Mem allocated address: CUdeviceptr = 140604176596992
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:96] cudaAPI = cuMemAlloc_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:271] cuMemAlloc_prehook Entered.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:273] Requested memory size: 20971520
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:292] Mem allocated address: CUdeviceptr = 140604143042560
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:96] cudaAPI = cuMemAlloc_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:271] cuMemAlloc_prehook Entered.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:273] Requested memory size: 20971520
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:292] Mem allocated address: CUdeviceptr = 140604109488128
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:00 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:01 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:01 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:01 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.
+2024/09/08 06:56:01 stdout: [2024-09-08 06:56:00][DEBUG][cuda_hook.cpp:145] cudaAPI = cuMemcpyHtoDAsync_v2, is called.

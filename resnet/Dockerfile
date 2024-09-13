@@ -22,4 +22,4 @@ RUN chmod +x /usr/bin/fwatchdog
 ENV mode="http"
 ENV upstream_url="http://127.0.0.1:5000"
 ENV fprocess="python3 index.py --backend pytorch-native"
-CMD ["/bin/bash", "-c", "sleep 36000"]
+CMD ["fwatchdog"]
